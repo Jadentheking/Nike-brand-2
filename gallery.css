@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #111; 
+}
+
+header{
+    background: #000;
+    color: #fff;
+    padding:  20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 32px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #aaa;
+}
+
+.shop-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.items {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
